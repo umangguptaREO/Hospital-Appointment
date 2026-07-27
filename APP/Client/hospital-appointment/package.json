@@ -23,6 +23,11 @@
     "styled-components": "^5.2.3",
     "web-vitals": "^1.1.1"
   },
+  "overrides": {
+    "postcss-safe-parser": {
+      "postcss": "^8.4.31"
+    }
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "GENERATE_SOURCEMAP=true react-scripts build",
